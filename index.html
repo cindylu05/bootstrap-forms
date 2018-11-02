@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Assignment</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+
+<h1>Trick or Treat?</h1>
+<p>Happy Halloween! Lets test your knowledge on all things spooky.<br>Source: <a href="https://en.wikipedia.org/wiki/Halloween">Wikipedia</a></p>
+
+  <form>
+    <div class="form-group">
+      <div>
+        <label class="form-control-label">When is Halloween celebrated? <input class="form-control" type="text" name="date" id="date"></label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="form-control-label">Which of the following is NOT another name for Halloween?</label>
+
+      <div class="form-check">
+        <label class="form-check-label"><input class="form-check-input" type="radio" name="names" value="AllHallows'Eve"> All Hallows' Eve</label>
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label"><input class="form-check-input" type="radio" name="names" value="PumpkinDay"> Pumpkin Day</label>
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label"><input class="form-check-input" type="radio" name="names" value="AllSaints'Eve"> All Saints' Eve</label>
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label"><input class="form-check-input" type="radio" name="names" value="Allhalloween"> Allhalloween</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div>
+        <label class="form-control-label">What are some examples of Halloween decorations? <textarea class="form-control" name="decorations" rows="3" id="decorations"></textarea></label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div>
+        <label class="form-control-label">What do participants wear on Halloween? <input class="form-control" type="text" name="attire" id="attire"></label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div>
+        <label class="form-control-label">Which of the following are popular Halloween activities?</label>
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label"><input class="form-check-input" type="checkbox" name="activities" value="pumpkins"> Carving pumpkins</label>
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label"><input class="form-check-input" type="checkbox" name="activities" value="bonefire"> Bonfires</label>
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label"><input class="form-check-input" type="checkbox" name="activities" value="turkey"> Eating turkey</label>
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label"><input class="form-check-input" type="checkbox" name="activities" value="movies"> Watching scary movies</label>
+      </div>
+    </div>
+
+  <div class="form-group">
+    <div>
+      <label class="form-control-label">What is trick-or-treating?</label>
+    </div>
+
+    <div>
+      <select class="form-control" name="treats" id="treats" size="3">
+        <option value="prank">Playing pranks on others</option>
+        <option value="party">Attending a costume party</option>
+        <option value="house">Going to a haunted house</option>
+        <option value="school">Skipping school for the day</option>
+        <option value="candy">Collecting candy from others</option>
+        <option value="lights">Lighting up jack-o'-lanterns</option>
+      </select>
+    </div>
+  </div>
+
+  <input class="btn btn-dark" type="submit" value="Submit answers.">
+  <input class="btn btn-dark" type="reset" value="Clear responses.">
+
+  </form>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
